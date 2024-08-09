@@ -1,0 +1,14 @@
+/* src/components/Tooltip.css */
+.tooltip {
+  position: absolute;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 8px 12px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px; /* Font size for the text */
+  white-space: nowrap; /* Prevents text from wrapping */
+  z-index: 1000; /* Ensure the tooltip is on top */
+  opacity: 1; /* Tooltip visibility */
+  transition: opacity 0.2s; /* Smooth fade transition */
+  pointer-events: none; /* Tooltip does not block interactions */
+}
